@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+    .sign-img{
+     display: none;
+    }
+    .sign-in-form{
+     width: 100% !important;
+ }
+ .font-style, .auto-type{
+    font-size: 16px;
+ }
+ .icon-map{
+    width:2rem;
+    height:2rem;
+ }
+
+ }
+ @media screen and (max-width:1114px){
+    .media-input-style {
+        width: 100% !important;
+     }
+ }
+    
+ 

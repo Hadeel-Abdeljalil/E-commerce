@@ -1,0 +1,203 @@
+:root{
+    --main-color:#5F8559;
+}
+*{
+    font-family: almarai;
+}
+.color{
+    color: #5F8559;
+}
+.copy{
+    color: #818181;
+}
+
+::placeholder{
+    color: white !important;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.header-img{
+    background-image: url('../../../../public/images/footer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.header-img img{
+width: 17rem;
+height: 17rem;
+
+}
+.font-style,.auto-type {
+font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.auto-type{
+    color: #5F8559;
+}
+.icon-nav{
+    color: #5F8559;
+}
+.nav-text-h1{
+    font-size: 100%;
+    color: black;
+}
+.nav-text-p{
+    font-size: 50%;
+    color: black;
+}
+
+.icon-map{
+    width:3rem;
+    height:3rem;
+    color: #5F8559;
+}
+.icon  {
+    width:3rem;
+    height:3rem;
+    transition: background-color 1s,border 1s;
+    cursor: pointer;
+}
+
+.icon:hover{
+    background-color: #5F8559;
+    color: white;
+}
+.button, .button1 {
+    border-radius: 10%;
+    margin: 30px 10px 0 0;
+    padding: 16px;
+    font-size: 16px;
+
+}
+
+.home{
+    height: 100vh;
+}
+.cornar{
+    background-color: #5F8559;
+    width: 10px;
+    
+}
+.dir{
+    direction: rtl;
+}
+
+.services {
+    margin-top: 130px;
+    background-image: url('../../../../public/images/road.jpg');
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+}
+.service{
+    height: 290px;
+    width: 300px;
+    border-radius: 10px;
+    direction: rtl;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.75);;
+}
+.service h1{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 5px 10px rgb(0, 0, 0);
+    mix-blend-mode: screen;
+    
+}
+.notice{
+    height: 400px;
+    margin: 100px;
+    direction: rtl;
+}
+
+.about{
+    direction: rtl;
+}
+.about  img{
+    height: 300px;
+}
+.about-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about p, .notice p, .notice h1{
+    direction: rtl;
+}
+
+.contact-us{
+        background-image: linear-gradient(rgba(106, 131, 102, 0.85), rgba(106, 131, 102, 0.85)), url('../../../../public/images/contact.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.map{
+    direction: rtl;
+}
+
+.contact{
+    direction: rtl;
+    
+    height: 400px;
+    color: #5F8559;
+    font-family: almarai;
+    background-image: url('../../../../public/images/footer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact a{
+    color: #5F8559;
+}
+.contact .container{
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact h4 {
+    color: #5F8559;
+    font-size: 20px;
+    opacity: 1;
+    margin-bottom: 25px;
+    font-weight: 5;
+}
+.useful-links {
+    padding-right: 70px;
+    padding-left: 35px;
+}
+.fa-regular {
+    font-size: 10px;
+    padding-left: 10px;
+}
+.contact-details li, .useful-links ul li {
+    padding: 8px 0;
+    border-bottom: .1px solid;
+}
+
+.contact ul li{
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #5F8559;
+    padding-top: 60px;
+    color: #fff;
+    line-height: 45px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+}
+.footer img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+.footer .icon{
+    color: white;
+}

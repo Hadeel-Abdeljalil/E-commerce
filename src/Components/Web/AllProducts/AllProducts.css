@@ -1,0 +1,68 @@
+.bg-color {
+    background-color: #5F8559 !important;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.758) !important;
+}
+
+.image-container {
+    width: 17rem;
+    height: 22rem;
+    overflow: hidden;
+}
+
+.product-image {
+    transition: transform 1s ease;
+}
+
+ .image-container:hover  .product-image{
+    transform: scale(1.2);
+}
+
+.crad-icon {
+    width: 3rem !important;
+    height: 3rem !important;
+
+}
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+}
+
+.d-icon {
+    visibility: hidden;
+    transition: transform 0.7s ease;
+}
+
+.image-container:hover .d-icon {
+    visibility: visible;
+}
+
+.d-icon:hover {
+    visibility: visible;
+ 
+}
+
+.d-icon:hover .product-image {
+    transform: scale(1.2);
+}
+.icon-card {
+    transition: background-color 0.5s ease, color 0.5s ease !important;
+}
+
+.icon-card:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.icon-card:hover .icon-animation{
+    animation: beat 0.3s infinite alternate; /* Apply the beat animation */
+
+}
+
+@keyframes beat {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1); }
+}

@@ -1,0 +1,73 @@
+/* Assuming the swiper button has a class named .swiper-button */
+
+/* Styling for both previous and next buttons */
+.header .swiper-button-prev,
+.header .swiper-button-next {
+    top: 60%; /* Move to the center vertically */
+    transform: translateY(-50%); /* Center the button */
+    position: absolute; /* Ensure correct positioning */
+    background-color: transparent !important; /* Remove fill */
+    border: 2px solid white; /* Add white border */
+    border-radius: 50%; /* Ensure round shape */
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    transition: transform 0.5s ease; /* Slower transition duration */
+
+}
+.header:hover .swiper-button-next {
+    transform: translate(15px) translateY(-50%);
+
+}
+
+.header:hover .swiper-button-prev{
+    transform: translate(-15px) translateY(-50%);
+}
+
+/* Styling for the arrow icon within the buttons */
+/* Previous Button */
+.header .swiper-button-prev::after {
+    content: ''; /* Necessary for pseudo-element */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 8px 0; /* Adjust size and shape of arrow */
+    border-color: transparent white transparent transparent; /* Adjust color */
+}
+
+/* Next Button */
+.header .swiper-button-next::after {
+    content: ''; /* Necessary for pseudo-element */
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 0 8px 8px; /* Adjust size and shape of arrow */
+    border-color: transparent transparent transparent white; /* Adjust color */
+}
+.header .swiper-button-prev {
+    left: 40px; /* Adjust the distance from the left */
+}
+
+.header .swiper-button-next {
+    right: 40px; /* Adjust the distance from the right */
+}
+
+.header .swiper-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure paragraph appears above the swiper */ 
+    text-align: center; /* Center text horizontally */
+  }
+  .header .swiper-text2 {
+    color: white; /* Text color */
+    font-size: 35px; /* Adjust font size */
+    font-weight: 900;
+   text-align: center; /* Center text horizontally */
+  }
+ .store-header-botton:hover{
+    background-color: #5F8559    !important;
+
+ }

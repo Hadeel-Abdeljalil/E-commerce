@@ -1,0 +1,19 @@
+.footer {
+    background-color: #5F8559;
+    padding-top: 60px;
+    color: #fff;
+    line-height: 45px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+}
+.footer img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+.footer .icon{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+}

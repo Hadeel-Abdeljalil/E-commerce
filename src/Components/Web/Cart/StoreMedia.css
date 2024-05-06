@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+    .st-logo{
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+    .store-logo{
+        font-size: 5pt;
+    }
+    .department-store{
+        padding-top: 0 !important;
+    }
+}
+

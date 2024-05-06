@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.active{
+    transition: border-bottom 0.1s ;
+    padding-bottom: 0% !important;
+  }
+  
+.nav{
+    background-color: #FEFAF6 !important;
+    transition: background-color 0.3s !important;
+}
+.dir{
+  direction: rtl;
+}
+.border-nav{
+  padding-bottom: 3px;
+}
+.x{
+  background-color: #EADBC8;
+}
+.style-font{
+  font-family: "Great Vibes", cursive !important;
+
+}
+.bg-nav{
+  background-color: white;
+}
